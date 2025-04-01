@@ -6,8 +6,8 @@ public class GeraArquivo {
 
 		for (int i = 0; i < 1000; i++){
 
-			PrintStream ps = new PrintStream("NewFile" + i + ".txt");
-			ps.println("NewFile" + i + ".txt");
+			PrintStream ps = new PrintStream("ArquivoTesteFinal-" + i + ".txt");
+			ps.println("ArquivoTesteFinal-" + i + ".txt");
 			ps.close();
 
 		}
